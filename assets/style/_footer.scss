@@ -1,0 +1,138 @@
+footer {
+    height: 813px;
+    background-color: #E4E2D3;
+    margin-top: 80px;
+    padding-top: 80px;
+    border-top: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .foot_boy {
+
+        height: 560px;
+        // border: 1px solid black;
+        padding-left: 80px;
+
+        .v {
+            display: flex;
+            gap: 901px;
+            margin-top: 12px;
+
+            .dg {
+                display: flex;
+                gap: 16px;
+
+                .dox {
+                    width: 40px;
+                    height: 40px;
+                    color: black;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    color: black;
+
+                    .gs {
+                        color: black;
+                    }
+                }
+            }
+
+        }
+
+        .choq {
+            width: 1240px;
+            height: 440px;
+            margin-top: 80px;
+            display: flex;
+            gap: 100px;
+
+            .ch1 {
+                font-family: "font";
+                width: 400px;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 28.6px;
+                text-align: left;
+            }
+
+            .ul1 {
+                list-style-type: none;
+                line-height: 40px;
+                margin-left: 120px;
+
+                .li {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #333333;
+                    transition: .5s;
+                    cursor: pointer;
+                    &:hover {
+                        color: red;
+                        transition: .5s;
+                    }
+                }
+
+                .li2 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #333333;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    transition: .5s;
+                    &:hover {
+                        color: red;
+                        transition: .5s;
+                    } 
+                }
+            }
+            .ul2{
+                list-style-type: none;
+                line-height: 40px;
+                
+                .li {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #333333;
+                    transition: .5s;
+                    cursor: pointer;
+                    &:hover {
+                        color: red;
+                        transition: .5s;
+                    }
+                }
+
+                .li2 {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #333333;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    transition: .5s;
+                    &:hover {
+                        color: red;
+                        transition: .5s;
+                    } 
+                }
+            }
+        }
+    }
+    .mon{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 100px;
+        margin-top: 133px;
+        cursor: pointer;
+    }
+}

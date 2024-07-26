@@ -1,0 +1,437 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@font-face {
+  font-family: "font";
+  src: url(../fonts/LibreBaskerville-Bold.ttf);
+}
+body {
+  background-color: #EFEEE8;
+}
+
+.box {
+  max-width: 1440px;
+  height: 6800px;
+  background-color: transparent;
+  margin: 0px auto;
+}
+
+header {
+  max-width: 1440px;
+}
+@font-face {
+  font-family: "font";
+  src: url(../fonts/LibreBaskerville-Bold.ttf);
+}
+header nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+header nav .sd {
+  width: 187px;
+  height: 34px;
+  margin-left: 52px;
+  margin-top: 4px;
+  cursor: pointer;
+  margin-right: 423px;
+}
+header nav .no {
+  display: flex;
+  list-style-type: none;
+}
+header nav .no .box {
+  width: 139px;
+  height: 62px;
+  border: 1px solid transparent;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+header nav .no .p1 {
+  font-size: 16px;
+  margin-top: 35px;
+  cursor: pointer;
+  margin-left: 16px;
+  transition: 0.5s;
+}
+header nav .no .p1:hover {
+  color: red;
+  transition: 0.5s;
+}
+header nav .box2 {
+  width: 254px;
+  height: 79px;
+  border-left: 1px solid black;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: 1s;
+}
+header nav .box2:hover {
+  background-color: red;
+  font-size: 20px;
+  font-weight: 700;
+  border: 3px solid black;
+}
+header .now {
+  width: 890px;
+  height: 362px;
+  margin: 80px auto;
+}
+header .now .l1 {
+  font-family: "font";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.6px;
+  text-align: center;
+}
+header .now .l2 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36.3px;
+  text-align: center;
+  color: rgb(51, 51, 51);
+  margin-top: 29px;
+}
+header .now .btn1 {
+  width: 242px;
+  height: 64px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 18px;
+  margin-left: 318px;
+  margin-top: 36px;
+  cursor: pointer;
+  transition: 1s;
+}
+header .now .btn1:hover {
+  background-color: red;
+  transition: 1s;
+}
+
+.sect_1 {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+  margin-bottom: 176px;
+  height: 822px;
+  display: flex;
+  gap: 54px;
+}
+
+@font-face {
+  font-family: "font";
+  src: url(../fonts/LibreBaskerville-Bold.ttf);
+}
+.noq {
+  width: 560px;
+  height: 822px;
+  padding-top: 79px;
+  padding-left: 48px;
+}
+.noq .ppp {
+  font-family: "font";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.noq .pp2 {
+  width: 494px;
+  height: 60px;
+  color: rgba(51, 51, 51, 0.9);
+  margin-top: 28px;
+}
+.noq .gox {
+  width: 512px;
+  height: 412px;
+}
+.noq .gox .g1 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23.1px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  margin-bottom: 15px;
+}
+.noq .gox .g2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  margin-top: 31px;
+  margin-bottom: 16px;
+}
+.noq .gox .g3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  color: rgb(51, 51, 51);
+  margin-top: 19px;
+  margin-bottom: 13px;
+}
+.noq .gox .g4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  color: #333333;
+  margin-top: 19px;
+  margin-bottom: 13px;
+}
+.noq .gox .g5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  color: #333333;
+  margin-top: 19px;
+  margin-bottom: 13px;
+}
+.noq .gox .g6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  color: #333333;
+  margin-top: 19px;
+  margin-bottom: 13px;
+}
+.noq .btnm2 {
+  width: 215px;
+  height: 48px;
+  background-color: rgb(51, 51, 51);
+  color: rgb(239, 238, 232);
+  font-size: 16px;
+  border-color: transparent;
+  margin-top: 62px;
+  cursor: pointer;
+  transition: 1s;
+}
+.noq .btnm2:hover {
+  background-color: aqua;
+  transition: 1s;
+}
+
+.section2 {
+  margin: 176px 20px;
+  height: 2796.69px;
+  padding-left: 80px;
+}
+.section2 .sa1 {
+  font-family: "font";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.section2 .sa2 {
+  width: 634px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  color: rgba(51, 51, 51, 0.8980392157);
+  margin-bottom: 43px;
+}
+.section2 .hr2 {
+  margin-right: 80px;
+  margin-top: 39px;
+  background-color: black;
+  color: black;
+  margin-bottom: 55px;
+}
+.section2 .nore {
+  display: flex;
+  gap: 32px;
+}
+
+._box {
+  width: 1000px;
+  height: 570px;
+  margin-left: 220px;
+  display: flex;
+  gap: 54px;
+}
+._box .box_boy {
+  width: 440px;
+  height: 570px;
+  padding-top: 81px;
+}
+._box .box_boy .box_p {
+  font-family: "font";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  width: 429px;
+}
+._box .box_boy .form {
+  height: 289px;
+  margin-top: 24px;
+}
+._box .box_boy .form .im1 {
+  height: 55px;
+  width: 440px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 20px;
+  border-bottom-color: black;
+  margin-bottom: 30px;
+  font-family: "font";
+}
+._box .box_boy .form .btnn1 {
+  width: 440px;
+  height: 52px;
+  background-color: #333333;
+  color: white;
+  font-size: 16px;
+  font-family: "font  ";
+  cursor: pointer;
+  transition: 1s;
+  border-color: transparent;
+  margin-top: 39px;
+}
+._box .box_boy .form .btnn1:hover {
+  background-color: aqua;
+  transition: 1s;
+  color: black;
+  font-size: 20px;
+  border-color: black;
+  border-radius: 10px;
+}
+
+footer {
+  height: 813px;
+  background-color: #E4E2D3;
+  margin-top: 80px;
+  padding-top: 80px;
+  border-top: 2px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+footer .foot_boy {
+  height: 560px;
+  padding-left: 80px;
+}
+footer .foot_boy .v {
+  display: flex;
+  gap: 901px;
+  margin-top: 12px;
+}
+footer .foot_boy .v .dg {
+  display: flex;
+  gap: 16px;
+}
+footer .foot_boy .v .dg .dox {
+  width: 40px;
+  height: 40px;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: black;
+}
+footer .foot_boy .v .dg .dox .gs {
+  color: black;
+}
+footer .foot_boy .choq {
+  width: 1240px;
+  height: 440px;
+  margin-top: 80px;
+  display: flex;
+  gap: 100px;
+}
+footer .foot_boy .choq .ch1 {
+  font-family: "font";
+  width: 400px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+}
+footer .foot_boy .choq .ul1 {
+  list-style-type: none;
+  line-height: 40px;
+  margin-left: 120px;
+}
+footer .foot_boy .choq .ul1 .li {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer .foot_boy .choq .ul1 .li:hover {
+  color: red;
+  transition: 0.5s;
+}
+footer .foot_boy .choq .ul1 .li2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer .foot_boy .choq .ul1 .li2:hover {
+  color: red;
+  transition: 0.5s;
+}
+footer .foot_boy .choq .ul2 {
+  list-style-type: none;
+  line-height: 40px;
+}
+footer .foot_boy .choq .ul2 .li {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  transition: 0.5s;
+  cursor: pointer;
+}
+footer .foot_boy .choq .ul2 .li:hover {
+  color: red;
+  transition: 0.5s;
+}
+footer .foot_boy .choq .ul2 .li2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #333333;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+footer .foot_boy .choq .ul2 .li2:hover {
+  color: red;
+  transition: 0.5s;
+}
+footer .mon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+  margin-top: 133px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

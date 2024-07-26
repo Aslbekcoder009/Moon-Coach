@@ -1,0 +1,110 @@
+header {
+    @font-face {
+        font-family: "font";
+        src: url(../fonts/LibreBaskerville-Bold.ttf);
+    }
+
+    max-width: 1440px;
+
+    nav {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+
+        .sd {
+            width: 187px;
+            height: 34px;
+            margin-left: 52px;
+            margin-top: 4px;
+            cursor: pointer;
+            margin-right: 423px;
+        }
+
+        .no {
+            display: flex;
+            list-style-type: none;
+
+            .box {
+                width: 139px;
+                height: 62px;
+                border: 1px solid transparent;
+                margin-top: 10px;
+                font-size: 16px;
+                margin-right: 10px;
+                cursor: pointer;
+            }
+
+            .p1 {
+                font-size: 16px;
+                margin-top: 35px;
+                cursor: pointer;
+                margin-left: 16px;
+                transition: .5s;
+                &:hover{
+                    color: red;
+                    transition: .5s;
+                }
+            }
+        }
+        .box2{
+            width: 254px;
+            height: 79px;
+            border-left: 1px solid black;
+            margin-left: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            transition: 1s;
+            &:hover{
+                background-color: red;
+                font-size: 20px;
+                font-weight: 700;
+                border: 3px solid black;
+            }
+        }
+
+    }
+.now{
+width: 890px;
+height: 362px;
+// border: 1px solid black;
+margin: 80px auto;
+.l1{
+    font-family: "font";
+font-size: 64px;
+font-weight: 700;
+line-height: 73.6px;
+text-align: center;
+
+}
+.l2{
+font-size: 22px;
+font-weight: 400;
+line-height: 36.3px;
+text-align: center;
+color: rgba(51, 51, 51, 1);
+margin-top: 29px;
+
+}
+.btn1{
+    width: 242px;
+    height: 64px;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    font-size: 18px;
+    margin-left: 318px;
+    margin-top: 36px;
+    cursor: pointer;
+    transition: 1s;
+&:hover{
+    background-color: red;
+    transition: 1s;
+}
+}
+}
+
+
+}

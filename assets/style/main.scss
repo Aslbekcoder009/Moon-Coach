@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@font-face {
+    font-family: "font";
+    src: url(../fonts/LibreBaskerville-Bold.ttf);
+}
+body{
+    background-color:#EFEEE8;
+}
+.box{
+max-width: 1440px;
+height: 6800px;
+background-color: transparent;
+margin: 0px auto;
+}
+@import "./header";
+@import "./im";
+@import "./sect_1";
+@import "./section";
+@import "./box";
+@import "./footer";
+
+
+
+
+
